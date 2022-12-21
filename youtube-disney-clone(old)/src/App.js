@@ -1,3 +1,4 @@
+// import { Router } from "react-router"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Login from "./components/Login.js"
 import Header from "./components/Header.js"
@@ -10,7 +11,6 @@ function App() {
         <Header/>
       </Router>
       <Router>
-        {/* <Header/> */}
         <Switch>
           <Route exact path="/">
             <Login />
